@@ -1,0 +1,8 @@
+body {
+    font-family: 'Cabin Condensed', sans-serif;
+    /* background-color: aqua; */
+}
+#app-logo{
+    height: 50px;
+    border-radius: 50px;
+}

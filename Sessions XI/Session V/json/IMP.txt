@@ -1,0 +1,7 @@
+JSON:
+json is a universal data transmission format.(JavaScript Object Notation).
+
+String = "{}"
+To Show Type of js function = (typeof(empInfo));
+Convert from String to Object = var newInfo = JSON.parse(empInfo);
+Convert from Object to String = ~~~ JSON.stringify(newInfo); 

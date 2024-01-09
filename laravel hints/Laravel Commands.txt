@@ -1,0 +1,12 @@
+php artisan config:cache
+php artisan config:clear
+-------------------------
+php artisan route:cache
+php artisan cache:clear
+------------------------
+php artisan route:list
+artisan optimize
+artisan optimize --force
+------------------------
+php artisan make:migration create_cities_table
+php artisan migrate

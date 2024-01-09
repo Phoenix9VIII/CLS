@@ -1,0 +1,25 @@
+var empName = "Ali";
+var basicSalary = 5000;
+var bonus = 670;
+var penalties = 380;
+var extraHours = 17;
+var texRate = 0.24;
+
+function totalMonthlyHours = (hoursPerday, dayPerweek, weekPermonth){
+	var result = hoursPerday * dayPerweek * weekPermonth;
+	return result; 0
+	
+}
+
+function hourlyRate(totalMonthlyHours,bs ){
+	var result = bs / totalMonthlyHours;
+	return result;
+
+
+}
+
+var x = totalMonthlyHours(12, 6, 4);
+console.log(x);
+
+var y = hourlyRate(x,6500);
+console.log(y);

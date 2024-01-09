@@ -1,0 +1,44 @@
+* Data Manipulation Language:
+    - Create (Insert - Add):
+INSERT INTO table_name VALUES (value1, valu2, value3);
+INSERT INTO cities VALUES (11, "Sharqia");
+
+INSERT INTO table_name (field1, field2, field3) VALUES (value1, value2, value3);
+INSERT INTO cities (name) VALUES ("Luxor");
+INSERT INTO users (name, password, email, phone, address, city_id) VALUES ("Hassan", "123", "hassan@hotmail.com", "012458754", "El-Dokki", 2);
+
+    - Update (Edit):
+UPDATE table_name SET field1 = newValue1, field2 = newValue2 WHERE field = value;
+UPDATE cities SET name = "Great Cairo" WHERE id = 1;
+UPDATE users SET name = "Hassan Ahmed", password = "123aaa", phone = "+20233113311" WHERE id = 3;
+
+    - Delete (Drop - Destroy):
+DELETE FROM table_name WHERE field = value
+DELETE FROM cities WHERE id = 9;
+
+* Data Query Langauge:
+    - Read - Retrieve - Fetch:
+SELECT field1, field2, field3 FROM table_name;
+SELECT name, phone, address FROM users;
+SELECT CustomerID, ContactName, Address, City FROM customers;
+
+SELECT * FROM table_name;
+SELECT * FROM users;
+
+
+SELECT * FROM table_name WHERE field = value;
+SELECT * FROM users WHERE id = 2;
+SELECT CustomerID, ContactName, Address, City FROM customers WHERE Country = "UK";
+SELECT * FROM products WHERE ProductID <= 10;
+SELECT * FROM products WHERE ProductID <> 10;
+SELECT * FROM products WHERE ProductID BETWEEN 5 AND 11;
+SELECT OrderID, CustomerID, OrderDate FROM orders WHERE OrderDate BETWEEN '1994-08-15' AND '1994-8-20';
+
+SELECT ProductID, ProductName, UnitsInStock, UnitPrice FROM products WHERE UnitPrice > 20 AND UnitsInStock > 50;
+
+SELECT ProductID, ProductName, UnitsInStock, UnitPrice FROM products WHERE UnitPrice > 20 OR UnitsInStock > 50;
+
+                                                            ((CRUD))
+                             Create              Read                Update             Delete
+                             new.php             list.php           edit.php            delete.php
+                             save.php            show.php           update.php

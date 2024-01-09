@@ -1,0 +1,33 @@
+1- Whats A Database ?
+a database is a perment storage unit ex:MySql for projects (Free Service), Oracle for enterprices (Paid Service), SQL Server (Microsoft), MongoDB. DB2(IDM), SAP(ALL IN One), Sales Forces. (ALL THE SAME DATABASE FUNDMENTALS).
+2- Why A Database?
+	-Storage Capacity.
+	-Security.
+	-User Access Control (UAC).
+	-Concurrent Users.
+3- Database Components ?
+	The Main Bulding Blogs:
+		-Tables (row,RECORD,column,FIELD) => (CELLS) => (RECORD VALUE).
+		-Relationship: 
+			1- One_To_Many is a direct relationship between two tables.
+			-a primary table or refrencce table.
+			-forign table (second table).
+			-each record in the primary table can be connected or related 			to one or more records in forign (second) tables.
+			-forign key (many) & primary key (one) 
+			2- One_To_One is a direct relationship between to tables, each 			record in the first table can ONLY be connected or be related 			to a single record in another table.
+4- Managing MySql Databases:
+			-- You Most Try All Databases Tools--
+	- Database Admin Tools, (Database Clients)(GUI). 
+		ex:navicat(paid),todd not a user friendly(paid) for Oracle.
+		ex:navicat(paid),managment studio for SQL Server(free)
+		ex:workbench(free)not a user friendly,navicat.
+				--phpmyadmin is the best--
+	- Command-line.
+
+(breadcrumb)for phpmyadmin server ex:1270.0.1
+(context menu)for toolbar
+(main working area)
+(database navigation panel)
+	
+	
+

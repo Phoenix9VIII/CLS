@@ -1,0 +1,17 @@
+- what's a class.
+- Declaring a class.
+- Properties & methods.
+- Instantiating a class.
+- Setting an Instance Properties.
+- Calling an Instance Property.
+- The "THIS" keyword.
+- Visablity Modefiers
+    PUBLIC   -> Accessible Inside & Outside
+    PRIVATE   -> Accessible Inside The Class
+    PROTECTED  -> 
+- Setter & Getter. 
+    Setter -> A Method used to set a value of a Private Property.
+    Getter -> AS Method used to get a value of a Private Property.
+- The "Static" & "Self" Keyword.
+- inheritance class (Parent Class - Child Class) & Extends class (used to derive a class from another class).
+- overriding class (providing a specific implementation of a method in a child class that differs from the implementation in the parent class).

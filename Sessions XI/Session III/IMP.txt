@@ -1,0 +1,37 @@
+JS Basic:
+1) Variables
+2) Arrays
+3) Operators
+	
+	-Concotenation operator +
+	-Assignment operator =
+	-Arithmetic operator + - * /
+	-Comparison <> >= <=
+
+4) Conditional Statements 
+	EX: var x = 3; var y = 5;
+		if(condition);-> (YES OR NO){ if condition is true }
+
+	EX: if(x > y){
+		console.log("x is greater than y");}
+	else if(y > x){
+		console.log("y is greater than x");}
+	else{console.log("x is equal y");}
+
+5) Loops    (start(intial value);step(interval);end(condition))
+	-For Loop => for(; ; ;){console.log("Hello");}
+
+	EX: for(var=1;x>10;x=x+1){console.log("Hello");}
+
+((x = x+1 ( For Using in Easy Case) X -=1 , X +=1 , X *=1 , X /=1))
+
+6) Functions is a block of code it has a name
+	EX: function function_Name(){ JS CODE ;}
+		function_Name();
+
+var a = 10;
+var b = 10;
+	Function sum(fNum,sNum);
+		var result = fNum + sNum;
+		return result;
+sum(a,b);

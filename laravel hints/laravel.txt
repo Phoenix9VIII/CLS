@@ -1,0 +1,32 @@
+|  (Remember)                           (Library)       |  (Framework)                                    |
+|                                                                                                         |
+|  CSS                      Animate.css/Fontawsome      |  Bootstrap                                      |
+|  JS                       JQuery                      |  React/Angular/Vue.js                           |
+|  PHP                      Carbon/PHPFaker             |  Laravel/Symfony/CakePHP/CodeIgniter/Zend       |
+|_________________________________________________________________________________________________________|
+-What's Laravel ?
+            is a php framework used to create a web-application btw laravel is not for a simply project.
+- Latavel Feature !
+            - Security.
+            - Template Engine (Blade).
+            - Command Line Interface (Artisan).
+            - DB Migrations.
+            - DB Seeders.
+            - DB Factories. 
+            - Packages.
+____________________________________________________________________________________________________________
+                                                    Package Managers
+                                            JS          Python          PHP
+                                            npm         PiP             Composer
+____________________________________________________________________________________________________________
+                                                    Commands on CMD
+composer -v
+php -v
+dir
+cd
+cd..
+composer create-project laravel/laravel amazon
+____________________________________________________________________________________________________________
+php artisan serve
+php artisan serve --port=8080
+

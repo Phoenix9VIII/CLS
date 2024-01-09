@@ -1,0 +1,88 @@
+1-whats php ?
+    php is a-programming language (high level programming language) used to create web application.
+    (Dynamically Type Language)
+2-what does php stand for ?
+    personal home page 1995.
+    hyper text proprocessor.
+
+3-Client Server Request
+    GET: GET request is used to read/retrieve data from a web server. GET returns an HTTP status code of 200 (OK) if the data is successfully retrieved from the server.
+
+    POST: POST request is used to send data (file, form data, etc.) to the server. On successful creation, it returns an HTTP status code of 201.
+
+    PUT: A PUT request is used to modify the data on the server. It replaces the entire content at a particular location with data that is passed in the body payload. If there are no resources that match the request, it will generate one.
+
+    PATCH: PATCH is similar to PUT request, but the only difference is, it modifies a part of the data. It will only replace the content that you want to update.
+
+    DELETE: A DELETE request is used to delete the data on the server at a specified location.
+
+required software 
+    1: Web Server (Apache)
+    2: Php (php Engine)
+    to convert .php file to regular .html file
+    3: Database (MYSQL).
+
+to download and install all required at once use
+    AMP Stack
+    for windows wamp
+    for linus lamp
+    for mac os mamp
+    for all operating system xampp
+3-whats required tools ?
+
+4-php Code Rules
+    php ignores spaces.
+    php end code with ;
+    php Case Sensitivity: (Case Sensitive Language A != <> a)
+    <?php ---CODE--- ?>
+5-php Basics
+    Printing Value:
+        echo 123;
+        print ();
+    Variables:
+        -Declaring a Variables.
+            $studentName;
+        -Assigning The Value to A Variables:
+            $studentName = "Mohamed";
+        -Calling A Variables:
+            echo $studentName;
+    Array: 
+        -0 Indexed Arrays:
+            $empInfo = ["Nour",5000,"IT",False];
+            echo empInfo [0];
+        - Associative Array:
+            $empInfo = array("Name" => "Nour", "Salary" => 5000, "Department" => "IT"); 
+            echo $empInfo["Name"];
+    Conditional Statements:
+            if (condition 1){
+                PHP Code If Condation 1 is True
+            } elseif(condition 2){
+                PHP Code If Condation 2 is true
+            } elseif (condition 3){
+                PHP Code If Condation 3 is true
+            } else {
+                PHP Code IF All Conditions are False
+            }
+    Loops:
+        For:
+            for (initial value; conditionl interval){
+                PHP Code;
+            }
+        While:
+            $d = 0;
+            while ($d <= 10){
+                PHP Code;
+                $d ++;
+            }
+        For Each:
+            $values = [Value 1, Value 2, Value 3];
+            foreach($values as $val){
+                echo $val;
+            } 
+    Function:
+        function functionName(1,2){
+            PHP Code;
+            return $value;
+        }
+                function functionName(value1,value2){
+

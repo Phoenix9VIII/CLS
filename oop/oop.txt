@@ -1,0 +1,11 @@
+Reusable Code && Modularity :(IMP)
+(Variable) use this $name = "Ali"; echo $name; instead = echo "Ali"; echo "Ali";
+(Function) use this calculate($a,$b,$c)
+                        {$net = $a + $b + $c; 
+                        return $net;
+                        }
+                        $x = calculate (500,300,100);
+                        $y = (30,50,100);
+        
+(Array) use this $empinfo = ["Ali","HR","5000"]; instead = $name = "Ali"; $job = "HR" $salary = 5000;
+(Class) The class represents a group of objects having similar properties and behavior.

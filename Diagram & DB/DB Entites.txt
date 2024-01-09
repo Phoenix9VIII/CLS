@@ -1,0 +1,21 @@
+/************ Model - Migration - Controller ********\
+Categories                  (Seeder)
+SubCategories               (Seeder)
+Products                    (Seeder)
+Skus = Variations           (Seeder)
+User            (Seeder) - (Factory)
+Types                       (Seeder)
+Orders          (Seeder) - (Factory)
+roles                       (Seeder)
+permission                  (Seeder)
+images 
+carts           (Seeder) - (Factory)
+statuses                    (Seeder)
+spec_categories             (Seeder)
+
+/*************** Migration ***********\
+sku_spec
+order_status
+role_user
+permission_role
+order_sku

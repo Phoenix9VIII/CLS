@@ -1,0 +1,13 @@
+For API to Get Data:
+
+For Currency
+https://exchangeratesapi.io/
+
+For Weahter API
+https://openweathermap.org/current
+
+For News API
+https://newsapi.org/
+
+*For Country Codes*
+https://en.wikipedia.org/wiki/List_of_ISO_3166_country_codes

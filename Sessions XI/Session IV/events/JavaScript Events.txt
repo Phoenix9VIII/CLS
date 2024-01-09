@@ -1,0 +1,3 @@
+an event is an action associated to a use behavior.
+event handler
+event listener (put all event listener on top of js file)

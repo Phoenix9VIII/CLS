@@ -1,0 +1,49 @@
+*{
+	padding : 0;
+	box-sizing : border-box;
+}
+body{
+	font-family: 'Pixelify Sans', sans-serif;
+	background-color : grey;
+}
+ div{
+	width : 700px;
+	margin : auto;
+	margin-top : 1%;
+	border : 3px solid black;
+	border-radius : 10px;
+	padding : 20px;
+	text-align : center;
+	background-color : rgba (255,255,255,0.5);
+}
+h1{
+	color : darkblue;
+	margin : 10px 0;
+}
+div form label{
+	display : block ;
+	color : white ; 
+	margin : 15px 0 10px;
+	text-algin : left;
+	font-size : 1.5em;
+}
+input,select{
+	display : black;
+	margin : auto;
+	height : 30px
+}
+button {
+	wdith : 135px;
+	height : 35px;
+	border-radius : 10px;
+	background-color : transparent;
+	color : black;
+	font-size : 1em;
+	font-weight : bold;
+	border : 2px solid darkblue;
+	marhin-top : 30px;
+}
+button:hover {
+	background-color : darkblue;
+	color : white;
+}

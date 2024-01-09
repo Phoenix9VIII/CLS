@@ -1,0 +1,37 @@
+<!DocType html>
+<html>
+<head>
+	<title>Smart Calculator</title>
+	<link rel="preconnect" href="https://fonts.googleapis.com">
+	<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+	<link href="https://fonts.googleapis.com/css2?family=Pixelify+Sans&display=swap" 			rel="stylesheet">
+	<link rel="stylesheet" href="css/app.css">
+</head>
+<body>
+	<div>
+		<h1>Smart Calculator</h1>
+		<form>
+			<label>First Number</label>
+			<input type="text" id="fNumber">
+
+			<label>Operation</label>
+			<select id="operation">
+				<option value="sum">Summation</option>
+				<option value="sub">Subtract</option>
+				<option value="mul">Multiplication</option>
+				<option value="div">Subtract</option>
+			</select>
+
+			<label>Second Number</label>
+			<input type="text" id="sNumber">
+		<br>
+		<br>
+			<button type="button">Calculate</button>
+		<hr>
+		</form>
+		<h1>The Result is <span id="showresult">000</span></h1>
+	 <img src="img/bg.png"> 
+	</div>
+	<script src="js/app.js"></script>
+</body>
+</html>

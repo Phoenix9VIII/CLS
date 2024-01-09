@@ -1,0 +1,39 @@
+*{
+	padding : 0;
+	margin : 0;
+	font-family: 'Sue Ellen Francisco', cursive;
+}
+.clear-fix{
+	clear : both;
+}
+.list {
+	width : 90%;
+	margin : auto;
+	margin-top : 15px;
+}
+.product{
+	width : 20%;
+	border : 2px solid darkblue;
+	border-radius : 10px;
+	padding : 10px;
+	background-color : grey;
+	float : left;
+	margin-top : 10px;
+}
+.product img{
+	width : 100%;
+}
+.product h3{
+	color: white;
+	background-color : darkblue;
+	float : right;
+	padding : 5px;
+	border-radius : 5px;
+}
+.product h5{
+	color: white;
+	background-color : darkblue;
+	float : left;
+	padding : 5px;
+	border-radius : 5px;
+}

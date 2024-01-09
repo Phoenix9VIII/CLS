@@ -1,0 +1,51 @@
+Whats A SQL ?
+Command line A Group of Commands Used to Prevent Different Actions on DataBase
+1- PL/SQL (Procedural Language for SQL).
+2- T-SQL (Transact-SQL).
+
+SQL Stand For What ?
+Structured Query Language.
+
+SQL Statment Types ?
+- DDL,(Data Definition Language).	
+*- DML,(Data Manipulation Language).
+*- DQL,(Data Query Language).
+- DCL,(Data Control Language).
+
+1- DML,(Data Manipulation Language):
+	-Create (Insert , Add)
+	INSERT INTO table_name VALUES (value1, value2, value3);
+		INSERT INTO cities VALUES (11, "Sahel");
+
+		INSERT INTO cities (name) VALUES (4 "Aswan");
+
+		INSERT INTO users (name, password, email, phone, address, city_id) VALUES ("Phoenix", "123", "0111", "Google.com" "Maadi", 1);
+
+	-Update (Edit):
+		UPDATE users SET name = "Phoenix", email = "Phoenix@gmail.com", password = "123PPP", phone = "0111" WHERE id = 1;
+
+	-Delete (Drop):
+		DELETE FROM cities WHERE id = 4;	
+
+2- DQL,(Data Query Language):
+	-Read -Retrieve -Fetch:
+		SELECT name, email, phone FROM  users;
+
+		SELECT * FROM  users;
+
+		SELECT * FROM  users WHERE id = 2;
+
+		SELECT * FROM Products WHERE ProductID <= 10 ;
+		SELECT * FROM Products WHERE ProductID <> 10 ;
+
+		SELECT * FROM Products WHERE ProductID BETWEEN 5 AND 11 ;
+
+		SELECT OrderID, CustomerID, OrderDate FROM orders WHERE OrderDate BETWEEN '1994-8-15' AND '1994-8-20';
+
+		SELECT ProductID, ProductName, UnitsInStock, UnitPrice FROM products WHERE UnitPrice > 20;
+
+		SELECT ProductID, ProductName, UnitsInStock, UnitPrice FROM products WHERE UnitPrice > 20 AND UnitsInStock > 50;
+	
+		SELECT ProductID, ProductName, UnitsInStock, UnitPrice FROM products WHERE UnitPrice > 20 OR UnitsInStock > 50;
+
+		
